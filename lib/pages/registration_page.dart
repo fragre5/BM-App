@@ -29,7 +29,6 @@ class _RegistrationPageState extends State<RegistrationPage> {
                   if (value == null || value.isEmpty) {
                     return 'Пожалуйста, введите ваше имя';
                   }
-                  print(value);
                   return null;
                 },
               ),
@@ -39,7 +38,6 @@ class _RegistrationPageState extends State<RegistrationPage> {
                   if (value == null || value.isEmpty) {
                     return 'Пожалуйста, введите ваш e-mail';
                   }
-                  print(value);
                   return null;
                 },
               ),
